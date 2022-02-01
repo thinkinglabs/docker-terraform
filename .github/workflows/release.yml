@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: '${{ github.repository_owner }}/packer'
+  IMAGE_NAME: '${{ github.repository_owner }}/terraform'
 
 jobs:
   build-and-push-image:
