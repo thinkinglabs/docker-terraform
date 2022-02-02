@@ -16,5 +16,6 @@ Concourse has some issues running tasks as non-root users, i.e.
 
 ## Supported tags
 
-- 0.13.6
-- 0.14.10
+- v0.13.6
+- v0.14.10
+- v1.1.4
