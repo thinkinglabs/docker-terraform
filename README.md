@@ -19,3 +19,4 @@ Concourse has some issues running tasks as non-root users, i.e.
 - v0.13.6
 - v0.14.10
 - v1.1.4
+- v1.1.7
