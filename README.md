@@ -13,10 +13,3 @@ Therefore, no `ENTRYPOINT` is defined and the container runs as root.
 
 Concourse has some issues running tasks as non-root users, i.e.
 [Concourse tasks ran as non-root users can not create files inside output directories](https://github.com/concourse/concourse/issues/403).
-
-## Supported tags
-
-- v0.13.6
-- v0.14.10
-- v1.1.4
-- v1.1.7
