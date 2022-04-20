@@ -26,7 +26,7 @@ RUN wget https://releases.hashicorp.com/terraform/${TF_VERSION}/${TF_DIST_FILENA
   && set -o pipefail && grep ${PLATFORM} checksums.txt | sha256sum -c - \
   && unzip tflint_${PLATFORM}.zip -d /usr/local/bin \
   && rm tflint_${PLATFORM}.zip checksums.txt \
-  && apk update && apk --no-cache add make gettext \
+  && apk update && apk --no-cache add make gettext bash \
   && envsubst < /root/.tflint.hcl.source > /root/.tflint.hcl \
   && tflint --init \
   && apk del gettext
