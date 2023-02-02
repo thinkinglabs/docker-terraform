@@ -1,4 +1,4 @@
-FROM alpine:3.13
+FROM alpine:edge
 
 ARG PLATFORM=linux_amd64
 ARG TF_VERSION=1.3.7
